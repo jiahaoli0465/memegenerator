@@ -59,7 +59,7 @@ function makeMeme (imageUrl, topTxt, bottomTxt){
     imageSpace.appendChild(overlay);
     imageSpace.appendChild(closeIcon);
 
-    imgMeme.addEventListener("click", function() {
+    closeIcon.addEventListener("click", function() {
         imageSpace.remove(); 
     });
 
