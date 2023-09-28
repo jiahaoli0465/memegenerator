@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meme Generator</title>
+    <link rel="stylesheet" href="app.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+</head>
+<body>
+    <div class="input-section">
+        <h1 class="title">Memerator!!</h1>
+        <p class="description">Fill out the forms to generate a meme!</p>
+        <p  class="author">Made by Jiahao Li</p>
+        <form autocomplete="off">
+            <div class="input-group">
+                <label for="imageUrl" class="label">Image Url</label>
+                <input type="text" id="imageUrl" class="input" placeholder="put your image url here">
+            </div>
+            <div class="input-group">
+                <label for="topText" class="label">Text on the top</label>
+                <input type="text" id="topText" class="input" placeholder="(optional) put your top text here">
+            </div>
+            <div class="input-group">
+                <label for="bottomText" class="label">Text on the bottom</label>
+                <input type="text" id="bottomText" class="input" placeholder="(optional) put your bottom text here">
+            </div>
+            <input type="submit" value="Make Meme" class="submit-button">
+        </form>
+    </div>
+
+    <div class="memeSection">
+
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
